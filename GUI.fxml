@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #C0C0C0;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="osama.connect">
+   <children>
+      <Label layoutX="161.0" layoutY="14.0" prefHeight="32.0" prefWidth="278.0" text=" caesar cipher @ playfair cipher" textAlignment="JUSTIFY" textFill="#e10a0a">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+      <Button fx:id="encryptButtom" layoutX="44.0" layoutY="122.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="114.0" text="Encrypt" textFill="#2544cd">
+         <font>
+            <Font name="Book Antiqua Bold Italic" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="decryptButton" layoutX="44.0" layoutY="242.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Decrypt" textFill="#d00a0a">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <TextField fx:id="textfield" alignment="CENTER" layoutX="174.0" layoutY="178.0" prefHeight="44.0" prefWidth="252.0" promptText="Your text here !">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <ChoiceBox fx:id="choiceBox" layoutX="225.0" layoutY="55.0" prefHeight="32.0" prefWidth="150.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </ChoiceBox>
+      <Label fx:id="decryotedLabel" alignment="CENTER" layoutX="174.0" layoutY="306.0" prefHeight="43.0" prefWidth="252.0" style="-fx-background-color: #807D7D;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="28.0" />
+         </font>
+         <effect>
+            <InnerShadow radius="18.155" width="53.62" />
+         </effect>
+      </Label>
+      <TextField fx:id="key" alignment="CENTER" layoutX="439.0" layoutY="122.0" prefHeight="35.0" prefWidth="149.0" promptText="Enter Key !">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+   </children>
+   <effect>
+      <InnerShadow radius="8.4575" width="14.83" />
+   </effect>
+</Pane>
